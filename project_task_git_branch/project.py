@@ -63,11 +63,9 @@ class project_task(orm.Model):
             branch_src = task.git_source_branch
             branch = task.git_branch
             res[task.id] = """
-            git checkout %s
-            git fetch upstream
-            git merge upstream/%s
-            git checkout -b %s origin/%s
-            """ % (branch_src, branch_src, branch, branch_src)
+            git clone %s
+            git checkout %s 
+            """ % (branch_src, branch)
         return res
 
     _columns = {
