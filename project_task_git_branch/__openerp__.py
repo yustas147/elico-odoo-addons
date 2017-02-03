@@ -8,9 +8,9 @@
     'depends': [
         "project",
     ],
-    'author': 'Elico-Corp','yustas147,
+    'author': 'Elico-Corp, Simbioz',
     'license': 'AGPL-3',
-    'website': 'https://www.elico-corp.com','http://simbioz.ua',
+    'website': 'https://www.elico-corp.com, http://simbioz.ua',
     'data': [
         "project_view.xml",
     ],
