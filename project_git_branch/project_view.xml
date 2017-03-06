@@ -9,10 +9,10 @@
             <notebook position="inside">
                 <page string="Git">
                     <group col="2">
-                        <field name="git_trunk" />
-                        <field name="git_release" />
-                        <field name="git_stable" />
-                        <field name="git_default" />
+                        <field name="git_trunk" widget="url" placeholder="enter link here"/>
+                        <field name="git_release" widget="url" placeholder="enter link here"/>
+                        <field name="git_stable" widget="url" placeholder="enter link here"/>
+                        <field name="git_default" widget="url" placeholder="enter link here"/>
                     </group>
                 </page>
             </notebook>
